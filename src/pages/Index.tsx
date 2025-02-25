@@ -1,14 +1,14 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Circuit, Brain, MessageSquare, Image } from "lucide-react";
+import { Cpu, Brain, MessageSquare, Image } from "lucide-react";
 
 const categories = [
   {
     id: 1,
     title: "AI Tools",
     description: "Powerful tools for automation and efficiency",
-    icon: Circuit,
+    icon: Cpu,
     color: "from-purple-500/20 to-purple-600/20",
   },
   {
